@@ -1,24 +1,53 @@
 # Getting Started with the Vue Context Menu Component
-A quick-start Vue project that shows how to get started with the Syncfusion Vue Context Menu component.
 
-The Syncfusion Vue Context Menu is a graphical user interface component that appears when a user right-clicks or performs a touch-and-hold action. The component allows you to create context menus that appear when a user right-clicks on an element or performs a certain interaction. These menus can provide context-specific actions and options for users.  
+**Repository Description**  
+This repository contains a quick‑start Vue sample that demonstrates how to integrate and configure the Syncfusion Vue Context Menu component in a Vue application.
 
-In this video, you will learn how to configure the Context Menu component with these built in features: item binding, icons, multilevel nesting, display of nesting items on click, navigation links, and animation.  
+A quick‑start Vue project that shows how to use the Syncfusion Vue Context Menu component, which appears when a user right‑clicks or performs a touch‑and‑hold action. The sample demonstrates configuring the component with built‑in features such as item binding, icons, multilevel nesting, navigation links, and animation.
 
-You can define custom context menus with a variety of items, submenus, icons, and separators. This allows you to tailor the context menu to match your application's look and feel. You can create nested submenus by including an item property within a menu item. You can control the position of the context menu relative to the triggering element, ensuring that it appears in the desired location. 
+## Project Overview
+This project is intended to help developers understand the basic usage and configuration of the Syncfusion Vue Context Menu component. It demonstrates how to define custom context menus with items, submenus, icons, and separators, and how to control menu behavior and positioning.
 
-Documentation: [https://ej2.syncfusion.com/vue/documentation/listview/getting-started](https://ej2.syncfusion.com/vue/documentation/context-menu/getting-started)
+## Features
+- Syncfusion Vue Context Menu integration  
+- Menu item binding with icons  
+- Multilevel nested menus  
+- Display of nested items on click  
+- Navigation links and animations  
+- Custom positioning relative to the target element  
 
-Demo: [https://ej2.syncfusion.com/vue/demos/#/fluent2/listview/default.html](https://ej2.syncfusion.com/vue/demos/#/fluent2/context-menu/default.html)
+## Prerequisites
+- Node.js  
+- Vue (Vue CLI or compatible setup)  
+- Visual Studio Code  
 
-## Project prerequisites
-Make sure that you have the compatible versions of [Visual Studio Code](https://code.visualstudio.com/download ), [Vue](https://cli.vuejs.org/guide/installation.html), and  [NodeJS](https://nodejs.org/en/download) or a later version on your machine before starting to work on this project.
-
-## How to run this application
-To run this application,
-- Clone the repository `getting-started-with-the-vue-context-menu-component`  and then open it in Visual Studio Code.
-- Install the dependencies and run the application using the below command.
+## Installation and Running the Application
+1. Clone the repository.
 ```bash
-npm install
-npm run dev
+git clone https://github.com/SyncfusionExamples/getting-started-with-the-vue-context-menu-component.git
 ```
+2. Open the project in Visual Studio Code.
+3. Install the required dependencies: `npm install`.
+4. Run the application: `npm run dev`.
+5. Open the URL displayed in the terminal to view the Context Menu component.
+
+## Documentation
+- General Syncfusion documentation:
+https://help.syncfusion.com/
+- Vue Introduction:
+https://ej2.syncfusion.com/vue/documentation/introduction
+- Vue Context Menu Getting Started:
+https://ej2.syncfusion.com/vue/documentation/context-menu/getting-started
+
+## Online Demo
+- Vue Context Menu demo:
+https://ej2.syncfusion.com/vue/demos/#/fluent2/context-menu/default.html
+
+## Troubleshooting
+- Ensure Node.js and Vue are installed correctly.
+- Run npm install if dependencies are missing.
+- Restart the development server if changes are not reflected.
+- Check the browser console for runtime or configuration errors.
+
+## Support
+For detailed usage instructions and API references, refer to the Syncfusion documentation links above.
