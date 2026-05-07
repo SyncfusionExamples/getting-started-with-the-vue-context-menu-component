@@ -1,6 +1,5 @@
 # Getting Started with the Vue Context Menu Component
 
-**Repository Description**  
 This repository contains a quick‑start Vue sample that demonstrates how to integrate and configure the Syncfusion Vue Context Menu component in a Vue application.
 
 A quick‑start Vue project that shows how to use the Syncfusion Vue Context Menu component, which appears when a user right‑clicks or performs a touch‑and‑hold action. The sample demonstrates configuring the component with built‑in features such as item binding, icons, multilevel nesting, navigation links, and animation.
